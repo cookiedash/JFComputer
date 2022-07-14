@@ -1,0 +1,420 @@
+header {
+    margin-left: 25px;
+    font-family: 'Chopsic', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family:Helvetica,Arial
+}
+
+.cart {
+    float: right;
+    font-size: medium;
+    margin-right: 10px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Revamped', sans-serif;
+    
+}
+
+a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.bannerimg {
+    margin-bottom: 40px;
+}
+
+
+/* footer sction */
+
+
+footer{
+    position: relative;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 40px 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+
+
+/*  home page css  */
+
+
+.build {
+    font-size: 40px;
+}
+
+.PCpackage {
+    margin-bottom: 80px;
+}
+
+.PCpackage table {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    width: 44%;
+}
+
+.PCpackage h3 {
+    font-size: 25px;
+}
+
+.PCpackage p {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.Best-Builds {
+    font-size: 60px;  
+}
+
+.Best-Builds-desc {
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+
+/* See Our Products page css */
+
+
+.promotions {
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+  
+.img {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container:hover .img {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 40px;
+}
+
+
+/* Learn About Us css */
+
+
+.aboutus {
+    font-size: 45px;
+}
+
+.aboutus-desc table {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    width: 70%;
+    font-size: 27px;
+}
+
+.aboutus-desc1 table {
+    margin-bottom: 15px;
+}
+
+.aboutus-desc2 table {
+    margin-bottom: 15px;
+}
+
+
+/* Help and Support css*/
+
+
+.our-team {
+    font-size: 40px;
+}
+
+.our-team2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.our-team-desc table {
+    border-collapse: separate;
+    border-spacing: 60px 0;
+    width: 60%;
+    font-size: 18px;
+}
+
+.our-team-desc p {
+    margin-bottom: 40px;
+}
+
+
+/* Login css */
+
+
+.login {
+    text-align: center;
+}
+
+.login h1 {
+    font-size: 35px;
+}
+
+.login input{
+    color: #111;
+}
+
+.login button{
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=button] {
+    width: 50%;
+    background-color: #550000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=button]:hover {
+    background-color: #490101;
+  }
+
+.loginbutton{
+    width: 50%;
+    background-color: #550000;
+    text-decoration: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .loginbutton:hover{
+    background-color: #490101;
+  }
+.loginerror{
+    color: red;
+}
+/* Create Account css*/
+
+.acc h1 {
+    font-size: 35px;
+}
+
+.acc h4 {
+    font-size: 20px;
+}
+
+.creatacc button{
+    color: rgb(255, 255, 255);
+}
+
+.CreateAccButton{
+    width: 50%;
+    background-color: #550000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.CreateAccButton:hover{
+    background-color: #490101;
+}
+.CreateAccError{
+    color: red;
+}
+
+/* Cart page css */
+
+
+.cartimg {
+    margin-right: 10px;
+}
+
+.cartlist {
+    margin-bottom: 50px;
+}
+
+.cartlist table {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    width: 80%;
+}
+
+.cartproduct {
+    text-align: center;
+}
+
+.cartmagnitude {
+    font-size: larger;
+}
+
+.order-total {
+    font-size: larger;
+}
+
+
+/* Checkout css */
+
+.shipping h2{
+    font-size: 20px;
+}
+
+.checkout {
+    font-size: 40px;
+}
+
+label[for=Acc] {
+    font-size: 18px;
+}
+
+.checkout button{
+    color: rgb(255, 255, 255);
+}
+
+.CheckoutButton{
+    width: 50%;
+    background-color: #550000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.CheckoutButton:hover{
+    background-color: #490101;
+}
